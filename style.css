@@ -105,3 +105,11 @@ box-shadow:0 0 10px rgba(0,0,0,.1);
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
+.hero img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #0d47a1;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
