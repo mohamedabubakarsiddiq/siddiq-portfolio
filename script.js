@@ -53,3 +53,10 @@ setTimeout(typeEffect,500);
 }
 
 typeEffect();
+document.getElementById("topBtn")
+.addEventListener("click",()=>{
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+});
